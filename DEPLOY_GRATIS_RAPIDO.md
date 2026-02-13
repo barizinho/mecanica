@@ -30,8 +30,9 @@ git push -u origin main
 2. "+ New" → "Web Service"  
 3. Selecione seu repo
 4. Name: mecanica-backend
-5. Build: cd backend && npm install
-6. Start: cd backend && npm start
+5. Build: npm install
+6. Start: npm start
+7. Root Directory: backend (importante!)
 7. Environment:
    NODE_ENV = production
    PORT = 3000

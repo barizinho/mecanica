@@ -42,8 +42,9 @@
    ```
    Name: mecanica-backend
    Environment: Node
-   Build Command: cd backend && npm install
-   Start Command: cd backend && npm start
+   Root Directory: backend (IMPORTANTE!)
+   Build Command: npm install
+   Start Command: npm start
    ```
 6. Em "Environment", adicione:
    ```
